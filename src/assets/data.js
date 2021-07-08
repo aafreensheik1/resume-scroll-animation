@@ -1,54 +1,60 @@
 export default {
   profile: {
-    name: 'Aafreen Sheik',
+    name: 'Karimulla Mohammed',
     designation: 'Frontend Developer',
-    phone: '+91 8185050344',
-    email: 'aafreen9495@gmail.com',
-    description: `I'm a Frontend Developer, having almost 4 years of experience working on multiple React projects that includes IoT based React application and React Migration Projects. Responsible for implementing Data visualization with ESRI maps and High charts along with Antd, writing complete page in React which was previously developed in php and Vanilla JS. Developed common components in react which are used across multiple react pages.`,
+    phone: '+91 9440604742',
+    email: 'mdkarim1266@gmail.com',
+    description: `A passionate UI developer having 4 years of industrial experience building websites and web applications. I have expertise in JavaScript and React.js.
+    A cohesive team worker, having strong analytical, problem solving and interpersonal skills`,
     profileUrl:
-      'https://raw.githubusercontent.com/aafreensheik1/xebia-hackerearth-challenge/master/src/assets/AafreenSheik.jpg'
+      'https://github.com/aafreensheik1/resume-scroll-animation/blob/master/src/assets/KarimullaMohammed.jpg?raw=true'
   },
   education: [
     {
       institute: 'Andhra University',
       year: '2013 - 2017',
-      marks: 'CGPA : 8.41',
-      major: 'B.Tech - Electronics and Communication Engineering'
+      marks: 'CGPA : 7.70',
+      major: 'B.Tech - Computer Science Engineering'
     },
     {
-      institute: 'NRI Junior College',
-      year: '2011 - 2013',
-      marks: '95%',
+      institute: 'Sri Chaitanya Junior College',
+      year: '2010 - 2012',
+      marks: '89%',
       major: 'Intermediate - MPC'
     },
     {
-      institute: 'Little Angels School',
-      year: '2011',
-      marks: '83%',
+      institute: 'Pavani Public School',
+      year: '2010',
+      marks: '87%',
       major: 'SSC / X Class'
     }
   ],
   experience: [
     {
-      company: 'Xylem',
+      company: 'Dell ( RSA )',
       role: 'Frontend Developer',
-      tenure: 'Apr 2020 - Present',
+      tenure: 'July 2019 - Present',
       description: [
-        'Worked on Singapore’s PUB Water Project, which is an IOT based React Application.',
-        'The tech stack of Application includes React, Redux-Saga,Antd, ESRI maps, HighCharts.',
-        'Using React Implemented Data visualization with ESRI maps and High charts along with Antd.',
-        'Monitored junior developers on the Team with React and ensured the quality of code by doing PR reviews.'
+        'Working on Project for migration of Silverlight pages to React. The tech stack includes React with Typescript, Redux-saga, Material UI and Jest, Enzyme and RTL for unit testing.',
+        'Took part in architecture and implementation decisions,taken up the complex and most challenging tasks, implemented components which can be reused and reduce the overall efforts.',
+        'I have contributed in writing common components which are used across multiple pages and features.',
+        'Written Unit Tests using Jest, Enzyme and later moved to React Testing Library and Automation Tests using TestCafe.'
       ]
     },
     {
       company: 'Wipro',
       role: 'Project Engineer',
-      tenure: 'Oct 2017 - Mar 2020',
+      tenure: 'Oct 2017 - June 2019',
       description: [
-        'Joined Wipro as a Fresher and Worked on Data migration Project for around 1 year, where the work involves end to end migration of SAP FICO objects from legacy SAP using ETL',
-        'Later moved to React project, where we have migrated Legacy applications from php and Vanilla JS to React',
-        'The tech stack includes React with Typescript, Redux-saga, Material UI.',
-        'Contributed to the in-house UI library by creating many resuable common components'
+        'As part of React Project, I have completed 1 month training on React, Redux and unit testing and developed an e-commerce site as part of Training.',
+        'Worked on Project to create interfaces in React for handling data flow between station through biztalk. The tech stack includes React with Redux-saga and Material UI.'
+      ]
+    },
+    {
+      company: 'Freelancing',
+      role: 'Design and Develop Websites',
+      description: [
+        'As a Freelance Developer, I have developed Websites for three companies (Fabblr, Inkbooks and Harithamu) and also for my college tech fest.'
       ]
     }
   ],
@@ -57,30 +63,32 @@ export default {
     'Redux-Saga',
     'JavaScript',
     'Typescript',
-    'HTML',
-    'CSS',
+    'JQuery',
+    'HTML5',
+    'CSS3',
     'Bootstrap',
     'Material UI',
     'AntD',
-    'HighCharts',
-    'Git',
-    'BitBucket',
+    'Node.js',
+    'Express',
+    'Mongo DB',
+    'My SQL',
     'Jest',
+    'Enzyme',
+    'Test Cafe',
     'React Testing Library'
   ],
   certification: [
     {
       title: 'Responsive Web Design',
       source: 'FreeCodeCamp',
-      link:
-        'https://www.freecodecamp.org/certification/aafreensheik/responsive-web-design'
+      link: ''
     },
     {
       title: 'Javascript Algorithms and Data Structure',
       source: 'FreeCodeCamp',
-      link:
-        'https://www.freecodecamp.org/certification/aafreensheik/javascript-algorithms-and-data-structures'
+      link: ''
     }
   ],
-  hobbies: ['Painting', 'Baking', 'Singing', 'Sudoku']
+  hobbies: ['Photography', 'Magic Tricks']
 };

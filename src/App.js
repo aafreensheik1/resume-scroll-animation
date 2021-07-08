@@ -13,12 +13,6 @@ export default function App() {
         <Route path="/blogs" component={Blogs} />
         <Route path="/" component={Resume} />
       </Switch>
-      <Footer>
-        <span>
-          Created by Aafreen Sheik for Xebia - Hackerearth Frontend Hiring
-          Challenge
-        </span>
-      </Footer>
     </div>
   );
 }
