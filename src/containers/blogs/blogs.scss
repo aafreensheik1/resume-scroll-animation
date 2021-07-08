@@ -1,0 +1,29 @@
+.blogs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  padding-top: 10px;
+  min-height: 80vh;
+}
+
+.blog-card {
+  width: 30%;
+  cursor: pointer;
+}
+
+.blogs-search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  border-radius: 55px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.blog-page {
+  padding: 10px 15%;
+  height: 80vh;
+}
